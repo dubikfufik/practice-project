@@ -32,7 +32,7 @@
      Для id_rsa: clip < ~/.ssh/id_rsa.pub  
      Для ed25519: clip < ~/.ssh/id_ed25519.pub  
 
----
+
 
      + Перейдите на GitHub и выберите пункт **Settingsв** меню аккаунта  
      + В меню слева нажмите на пункт **SSH and GPG keys**  
@@ -43,7 +43,7 @@
      + Нажмите на кнопку **Add SSH key**  
      + Проверьте правильность ключа с помощью следующей команды : $ ssh -T git@github.com. Если это первый раз когда вы работаете с Git вы можете проверить ваш ключ по [ссылке](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/githubs-ssh-key-fingerprints). Введите yes, если все получилось  
 
----
+
 
      + Перейдите на страницу удалённого репозитория, выберите тип SSH и скопируйте URL. Кнопка справа позволит сделать это мгновенно  
      + Вернитесь в терминал, откройте свой репозиторий и введите команду $ git remote add origin git@github.com:%ИМЯ_АККАУНТА%/first-project.git  
